@@ -3,31 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 1 Part 1</title>
-    <link type="stylesheet" href="./style.css">
     <style>
-        .moved-to-right{
-
+        body{
             
-            margin-left: 35px;
+        
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .sender-column {
+            text-align: right;
+        }
+
+        h1 {
+            font-size: 1.5em;
+        }
+
+        h2 {
+            font-size: 1.3em;
+        }
+
+        p, ul, ol, dl, address {
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+
+        p, li, dd, dt, address {
+            line-height: 1.5;
         }
     </style>
+        
+    <title>Assignment 1 Part 1</title>
+    <link type="stylesheet" href="./style.css">
+    
+
 </head>
+    
+
 <body>
-    Dr. Eleanor Gaye
-Awesome Science faculty
-University of Awesome
-Bobtown, CA 99999,
-USA
-Tel: 123-456-7890
-Email: no_reply@example.com
-
-20 January 2016
-
-Miss Eileen Dover
-4321 Cliff Top Edge
-Dover, CT9 XXX
-UK
+    <address style="text-align: right;"
+     class="sender-column"><strong>Dr. Eleanor Gaye</strong><br />
+        Awesome Science faculty<br />
+        University of Awesome<br />
+        Bobtown, CA 99999,<br />
+        USA<br />
+        <b>Tel: </b>123-456-7890<br />
+        <b>Email: </b>no_reply@example.com<br />
+        </p>
+        </address>
+        <br />
+        <div style="text-align: right;"> 20 January 2016</div>
+        <address>
+            <br />
+        
+        <strong>Miss Eileen Dover</strong><br />
+        4321 Cliff Top Edge<br />
+        Dover, CT9 XXX<br />
+        UK
+        </address>
+    </body>
 
 
 <h1>Re: Eileen Dover university application</h1>
@@ -56,7 +90,7 @@ UK
 </p>
 
 
-<p>You can find more information about <a href="#">important university dates</a> on our website.
+<p>You can find more information about <a href="http://example.com">important university dates</a> on our website.
 </p>
 
 
@@ -68,7 +102,7 @@ UK
 <ol>
 
 <li> H2O into wine, and the health benefits of Resveratrol (C14H12O3.)</li>
-<li>Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 × 103 increasing to 3 × 104.)</li>
+<li>Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 × 10<sup>3</sup> increasing to 3 × 10<sup>4</sup>.)</li>
 <li>HTML and CSS constructs for representing musical scores.</li>
 
 </ol>
@@ -83,31 +117,24 @@ Yes, you are right! As part of my post-doctorate work, I did study exotic tribal
 <br><br>
 
 
-
-Polynesian chicken dance
-<p class="moved-to-right">
-A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".
-</p>
-
-Icelandic brownian shuffle
-
-<p class="moved-to-right">
-Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking.
-</p>
-
-Arctic robot dance
-
-<p class="moved-to-right">
-An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterized by "robotic", stilted movements, being practiced by inhabitants of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this because they were really cold.
-</p>
+<p>Yes, you are right! As part of my post-doctorate work, I did study exotic tribal dances. To answer your question, my favourite dances are as follows, with definitions:</p>
+<dl>
+<dt>Polynesian chicken dance</dt>
+<dd>A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".</dd>
+<dt>Icelandic brownian shuffle</dt>
+<dd>Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking.</dd>
+<dt>Arctic robot dance</dt>
+<dd>An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterized by "robotic", stilted movements, being practiced by inhabitants of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this because they were really cold.</dd>
+</dl>
 <br><br>
-For more of my research, see my <a href="#">exotic dance research page.</a>
+For more of my research, see my <a href="http://example.com">exotic dance research page.</a>
 <br><br>
 Yours sincerely,
 <br><br>
 Dr Eleanor Gaye
 <br><br>
-University of Awesome motto: "Be awesome to each other." -- The memoirs of Bill S Preston, Esq
+<p>University of Awesome motto: <q cite="https://example.com/">"Be awesome to each other."</q> -- <i>The memoirs of Bill S Preston, Esq</i>
+</p>
     
 </body>
 </html>
