@@ -120,16 +120,32 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img src="firefox_logo-only_RGB400.png" alt="Firefox Logo">
+          <img
+            srcset="firefox_logo-only_RGB120.png 120w, firefox_logo-only_RGB400.png 400w"
+            sizes="(max-width: 500px) 120px, 400px"
+            src="firefox_logo-only_RGB400.png" 
+            alt="Firefox Logo">
         </a>
         <a href="https://www.mozilla.org/">
-          <img src="mozilla-dinosaur-head400.png" alt="Dinasour Head">
+          <img
+            srcset="mozilla-dinosaur-head400.png 400w, INFT1206-09\mozilla-dinosaur-head120.png 120w"
+            sized="(max-width: 500px) 120px, 400px"
+            src="mozilla-dinosaur-head400.png" 
+            alt="Dinosour Head">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img src="firefox-addons400.jpg" alt="Firefox Addons">
+          <img 
+            srcset="firefox-addons400.jpg 400w, firefox-addons120.jpg 120w"
+            sizes="(max-width: 500px) 120px, 400px"
+            src="firefox-addons400.jpg" 
+            alt="Firefox Addons">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img src="mdn.svg" alt="mdn">
+          <img 
+            srcset="mdn.svg"
+            sizes="(max-width: 500px) 120px, 400px"
+            src="mdn.svg" 
+            alt="mdn">
         </a>
         <div class="clearfix"></div>
       </div>
