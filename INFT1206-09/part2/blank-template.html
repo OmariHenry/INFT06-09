@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Table template</title>
+    <title>Planets Data</title>
     <link href="minimal-table.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>Table template</h1>
+    <h1>Planets Data</h1>
     
     <table>
         <!--Adding Black border the second column-->
@@ -20,7 +20,7 @@
         <thead>
             <tr>
                 <!--Adding columns and setting width-->
-                <td colspan="2"></td>
+                <td scope="col" colspan="2"></td>
                 <th>Name</th> 
                 <th>Mass (10<sup>24</sup>kg)</th> 
                 <th>Diameter (km)</th>
@@ -36,8 +36,8 @@
         <tbody>
             <!--Adding Planets and Types-->
             <tr>
-                <th colspan="2" rowspan="4">Terrestrial Planets</th>
-                <th>Mercury</th>
+                <th scope="col" colspan="2" rowspan="4">Terrestrial Planets</th>
+                <th scope="row">Mercury</th>
                 <td>0.330</td>
                 <td>4,879</td>
                 <td>5427</td>
@@ -49,7 +49,7 @@
                 <td>Closest to the Sun</td>
             </tr>
             <tr>
-                <th>Venus</th>
+                <th scope="row">Venus</th>
                 <td>4.87</td>
                 <td>12,104</td>
                 <td>5243</td>
@@ -61,7 +61,7 @@
                 <th></th>
             </tr>
             <tr>
-                <th>Earth</th>
+                <th scope="row">Earth</th>
                 <th>5.97</th> 
                 <th>12,756</th>
                 <th>5514</th>
@@ -73,7 +73,7 @@
                 <th>Our world</th>
             </tr>
             <tr>
-                <th>
+                <th scope="row"> 
                     Mars
                     <th>0.642 6</th>
                     <th>6,792</th>
@@ -87,9 +87,9 @@
                 </th>
             </tr>
             <tr>
-                <th rowspan="4">Jovian Planets</th>
+                <th scope="col" rowspan="4">Jovian Planets</th>
                 <th rowspan="2">Gas Giants</th>
-                <th>Jupiter</th>
+                <th scope="row">Jupiter</th>
                 <th>1898</th>
                 <th>142,984</th>
                 <th>1326</th>
@@ -101,7 +101,7 @@
                 <th>The largest planet</th>
             </tr>
             <tr>
-                <th>Saturn</th>
+                <th scope="row">Saturn</th>
                 <th>568</th>
                 <th>120,536</th>
                 <th>687</th>
@@ -113,8 +113,8 @@
                 <th></th>
             </tr>
             <tr>
-                <th rowspan="2">Ice Giants</th>
-                <th>Urunas</th>
+                <th scope="col" rowspan="2">Ice Giants</th>
+                <th scope="row">Urunas</th>
                 <th>86.8</th>
                 <th>51,118</th>
                 <th>1271</th>
@@ -126,7 +126,7 @@
                 <th></th>
             </tr>
             <tr>
-                <th>Neptune</th>
+                <th scope="row">Neptune</th>
                 <th>102</th>
                 <th>49,528</th>
                 <th>1638</th>
@@ -138,8 +138,8 @@
                 <th></th>
             </tr>
             <tr>
-                <th colspan="2" rowspan="2">Dwarf Planets</th>
-                <th>Pluto</th>
+                <th scope="col" colspan="2" rowspan="2">Dwarf Planets</th>
+                <th scope="row">Pluto</th>
                 <th>0.0146</th> 
                 <th>2,370</th>
                 <th>2095</th>
